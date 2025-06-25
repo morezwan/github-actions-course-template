@@ -24,7 +24,7 @@ jobs:
           name: webpack artefacts
           path: public/
   
-test:
+ test:
     runs-on: ubuntu-latest
     needs: build
     
